@@ -9,7 +9,7 @@
       </div>
       <div class="user-actions">
         <router-link to="/login">登录</router-link>
-        <router-link to="/register">注册</router-link>
+        <!-- <router-link to="/register">注册</router-link> -->
       </div>
     </nav>
 
@@ -134,6 +134,8 @@ const addToCart = (product: Product) => {
 
 <style scoped>
 .home {
+  width: 100vh;
+  /* height: 100vh; */
   font-family: Arial, sans-serif;
 }
 
@@ -219,7 +221,7 @@ const addToCart = (product: Product) => {
   box-sizing: border-box;/* 一种计算方式，使总width = width + paadding + border */
 }
 
-.category-item el-icon {
+.category-item .el-icon {
   width: 15px; /* 统一宽度 */
   height: 15px; /* 统一高度 */
   display: flex;
